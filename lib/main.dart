@@ -68,7 +68,7 @@ class _DrawingBoardState extends State<DrawingBoard> {
             },
             onPanEnd: (details) {
               setState(() {
-                drawingPoints.add(null);
+                drawingPoints.add(null!);
               });
             },
             child: CustomPaint(
